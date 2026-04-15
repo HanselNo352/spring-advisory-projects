@@ -1,0 +1,87 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #e9cf7a;
+    font-size: large;
+    background-color: rgb(0, 0, 0);
+    margin: 50px;
+    padding: 20px;
+    padding-left: 10px;
+    border-style: solid;
+    border-color: #e9cf7a;
+    border-radius: 20px;
+    border-width: 12px;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+}
+
+h2,figcaption,a,dt {
+    color:#7AE9CF;
+}
+
+ol,ul {
+    color: #7A94E9;
+    display: inline-block;
+    text-align: left;
+}
+
+header {
+    background-image: url(images/header.png);
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;    
+    height: 525px; 
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+nav {
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: larger;
+}
+
+nav a {
+    text-decoration: underline;
+    color: #7A94E9;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    color: yellow;
+    border-color: yellow;
+}
+
+img {
+    border-style: solid;
+    border-color: #e9cf7a;
+    border-width: 10px;
+    border-radius: 5px;
+}
+
+dt {
+    margin: 10px;
+}
+
+.button {
+    border: none;
+    background-color: #e9cf7a;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 23px;
+    margin: 5px 5px;
+    border-style: groove;
+    border-color: #7A94E9;
+    border-width: 3px;
+}
