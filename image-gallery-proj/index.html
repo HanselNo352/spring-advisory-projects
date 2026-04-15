@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Captioned Responsive Image Gallery</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            font-size: 16px;
+        }
+
+        body {
+            max-width: 95%;
+            margin: 5px auto;
+            background: lightblue;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(min(250px, 100%), 1fr));
+            gap: 1rem;
+        }
+
+        .container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            border: 3px solid blue;
+        }
+
+        .gallery-title h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        .image {
+            display: grid;
+            grid-template-rows: 1fr auto;
+        }
+
+        figcaption {
+            text-align: center;
+            margin: 5px 0 0 0;
+            font-size: 0.9rem;
+            font-weight: bold;
+            color: #333;
+            background-color: lightgrey;
+            border: 2px solid black;
+            padding: 0.25rem;
+        }
+    </style>
+</head>
+<body>
+    
+    <div class="gallery-title">
+        <h1>Basic Image Gallery</h1>
+    </div>
+
+    <div class="container">
+
+        <figure class="image image-1">
+            <img src="images/backpacker.jpg" alt="Getting ready for a hike">
+            <figcaption>Ready to hike</figcaption>
+        </figure>
+
+        <figure class="image image-2">
+            <img src="images/bouquet.jpg" alt="A bouquet of flowers">
+            <figcaption>Summer Harvest</figcaption>
+        </figure>
+
+        <figure class="image image-3">
+            <img src="images/car.jpg" alt="A red car">
+            <figcaption>Ready to Roll</figcaption>
+        </figure>
+
+        <figure class="image image-4">
+            <img src="images/greece.jpg" alt="A beautiful home in Greece">
+            <figcaption>Greece in the Summer</figcaption>
+        </figure>
+
+        <figure class="image image-5">
+            <img src="images/climbing.jpg" alt="going climbing">
+            <figcaption>Climbing </figcaption>
+        </figure>
+
+                <figure class="image image-6">
+            <img src="images/furniture-lg.jpg" alt="furniture catalog">
+            <figcaption>Furniture</figcaption>
+        </figure>
+
+                <figure class="image image-7">
+            <img src="images/jacket.jpg" alt="a winter jacket">
+            <figcaption>Ready to Head Outside</figcaption>
+        </figure>
+
+                <figure class="image image-8">
+            <img src="images/journaling.jpg" alt="working in a cafe">
+            <figcaption>Working in a Cafe</figcaption>
+        </figure>
+
+                <figure class="image image-9">
+            <img src="images/fashion.jpg" alt="a lady modeling a beanie and jacket">
+            <figcaption>Modeling a Jacket</figcaption>
+        </figure>
+
+                <figure class="image image-10">
+            <img src="images/italy.jpg" alt="a back alley in italy">
+            <figcaption>Flowers in Italy</figcaption>
+        </figure>
+
+                <figure class="image image-11">
+            <img src="images/vegetables.jpg" alt="a collection of vegetables">
+            <figcaption>Spring Harvest</figcaption>
+        </figure>
+
+                <figure class="image image-12">
+            <img src="images/trail.jpg" alt="a scenic mountain view">
+            <figcaption>Mountain View</figcaption>
+        </figure>
+        
+                <figure class="image image-13">
+            <img src="images/northern-lights.jpg" alt="northern lights at night">
+            <figcaption>Northern Lights</figcaption>
+        </figure>
+        
+                <figure class="image image-14">
+            <img src="images/wetland.jpg" alt="quiet wetland in the summer">
+            <figcaption>Quiet Wetland</figcaption>
+        </figure>
+    </div>
+</body>
+</html>
